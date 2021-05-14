@@ -39,6 +39,7 @@ class BottomShit extends StatelessWidget {
                     style: nameTextFieldTextStyle,
                     keyboardType: TextInputType.text,
                     controller: homeController.nameController,
+                    maxLength: 15,
                     decoration: nameTextFieldDecoration,
                   ),
                 ),

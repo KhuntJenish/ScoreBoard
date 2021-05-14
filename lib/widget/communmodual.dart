@@ -47,6 +47,7 @@ final bottomStyle = ButtonStyle(
 
 final nameTextFieldDecoration = InputDecoration(
     border: OutlineInputBorder(),
+    counterText: '',
     hintText: "Enter Your Name",
     labelText: "Name");
 
